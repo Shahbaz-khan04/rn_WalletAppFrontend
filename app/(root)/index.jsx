@@ -1,4 +1,4 @@
-import { SignedIn, SignedOut, useUser } from "@clerk/clerk-expo";
+import { useUser } from "@clerk/clerk-expo";
 import {
   Alert,
   FlatList,
@@ -46,7 +46,7 @@ export default function Page() {
         {
           text: "Delete",
           style: "destructive",
-          onPress: deleteTransaction(id),
+          onPress: () => deleteTransaction(id)
         },
       ]
     );

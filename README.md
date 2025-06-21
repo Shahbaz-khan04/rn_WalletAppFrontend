@@ -1,6 +1,8 @@
 # React native Wallet App
 
-backend is hosted at https://rnwalletbackend-production.up.railway.app/api/health
+backend is hosted using railway
+https://rnwalletbackend-production.up.railway.app/api/health
+https://github.com/Shahbaz-khan04/rn_walletBackend
 
 We used neon database 
 clerk for authentication
